@@ -1,0 +1,22 @@
+{
+  "name": "e2e-prisma-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Rafael Ribeiro",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.2.203",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^28.1.1",
+    "@types/node": "^18.0.0",
+    "jest": "^28.1.1",
+    "prisma": "^3.15.2",
+    "supertest": "^6.2.3",
+    "typescript": "^4.7.3"
+  }
+}
