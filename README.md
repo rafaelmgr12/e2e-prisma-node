@@ -92,6 +92,19 @@ Therefore, we will create a new environment to perform our e2e. There is a scrip
 At last, with these requirements completed, we can start to write our test in the `app.e2e-spec.ts`. Here we put all rules need to start to write.
 
 ---
+## :rocket: How to run
+
+To run the this project 
+
+- Clone the repo and access the directory;
+- Use the `npm` or `yarn` to install the dependencies;
+- Run the migrations with `npx prisma migrate dev` or `yarn prisma migrate dev`;
+- Init the unitary test is `npm run test` and e2e test `npm run test:e2e`
+
+> This project using an Postgres as default database.
+
+
+---
 ## 📄 License
 The projects is under the MIT license. See the file [LICENSE](LICENSE) fore more details
 
